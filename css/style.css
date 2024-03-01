@@ -103,16 +103,16 @@ a:hover {
 /* search-bar */
 
 .search-form {
-    display: flex;
-    align-items: center;
+    display: flex; /* définit la classe parent en flex et le comportement des autres elements */ 
+    /* align-items: center;
     flex-direction: row;
     width: 377px;
     height: 49px;
     border-radius: 15px;
-    background-color: #F2F2F2;
+    
     border: 1px;
     margin: 35px 0px;
-    gap: 24px;  
+    gap: 24px;   */
 }
 
 /* .search-form {
@@ -123,13 +123,15 @@ a:hover {
 } */
 
 .fa-location-dot {
-    width: 50px;
-    height: 49px;
+    /* width: 50px;
+    height: 49px; */
     display: flex;
     /* align-items: center; */
     justify-content: center;
-    border: 1px;
+    /* border: 1px; */
     color: black;
+    background-color: #F2F2F2;
+    font-size: ; /* définit la taille du logo*/
 }
 
 .input-form {
@@ -164,6 +166,9 @@ input::placeholder {
     color:white;
 }
 
+.search button {
+    
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
